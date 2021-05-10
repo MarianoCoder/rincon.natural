@@ -440,6 +440,18 @@ h4 {
     grid-template-rows: 13% 12% 66% 8%;
   }
 
+  #grillaIndex a img{
+
+    width: 40px;
+    height: 40px;
+  }
+  #grillaPascuas a img{
+
+    width: 40px;
+    height: 40px;
+  }
+
+
   #grillaPascuas {
     grid-template-rows: 13% 12% 66% 8%;
   }
@@ -447,6 +459,7 @@ h4 {
   #grillaIndex img {
     width: 380px;
   }
+
 
   #grillaPascuas img {
     width: 380px;
