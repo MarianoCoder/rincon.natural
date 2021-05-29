@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tenemos local ubicado en calle Lopez y Planes 4244, barrio Altamira, Córdoba Capital. Celular: +54 9 351000000. Podés escanear el codigo QR que te lleva directo hacia nuestro Whatsapp">
-    <meta name="keywords" contend="Dietetica, herboristeria, reposteria, ubicacion, contacto, telefono, direccion, Whatsapp, mensaje".>
+    <meta name="description"
+        content="Tenemos local ubicado en calle Lopez y Planes 4244, barrio Altamira, Córdoba Capital. Celular: +54 9 351000000. Podés escanear el codigo QR que te lleva directo hacia nuestro Whatsapp">
+    <meta name="keywords"
+        contend="Dietetica, herboristeria, reposteria, ubicacion, contacto, telefono, direccion, Whatsapp, mensaje" .>
     <link rel="stylesheet" href="css/estilo3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
- 
+
+
     <title>Contacto | Rincón Natural</title>
     <style>
         body {
             background-image: url("Imagenes/imagencontacto.jpg");
             background-size: 100%;
-            
+
         }
     </style>
 </head>
@@ -54,56 +56,71 @@
         <main>
             <h1 id="tituloGeneral">Contactanos</h1>
 
-            
-                <fieldset>
-                    <legend>Envianos tus dudas, preguntas o comentarios...</legend>
-                    <form action="#" method="GET">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" placeholder="ingrese su nombre" id="nombre">
-                        <br>
 
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" placeholder="ingrese su apellido" id="apellido">
-                        <br>
-                        <label for="sexo">Sexo:</label>
-                        <select name="" id="sexo">
-                            <option value="">Seleccionar</option>
-                            <option value="">Hombre</option>
-                            <option value="">Mujer</option>
-                        </select>
+            <fieldset id="contacto">
+                <legend>Envianos tus dudas, preguntas o comentarios...</legend>
+                <form id="formulario" action="#" method="GET">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="ingrese su nombre" id="nombre">
+                    <br>
 
-                        <label for="email">e-mail:</label>
-                        <input type="email" placeholder="ingrese su email" id="email">
-                        <br>
-                        <label for="comentario">Dejanos tu comentario:</label>
-                        <br>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribir aqui..."
-                            id="comentario"></textarea>
-                        <br>
-                        <!-- <label for="terminos">Aceptar términos y condiciones del sitio</label>
-                        <input type="checkbox">
-                        <br>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar texto"> -->
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" placeholder="ingrese su apellido" id="apellido">
+                    <br>
+                    <label for="sexo">Sexo:</label>
+                    <select name="" id="sexo">
+                        <option value="">Seleccionar</option>
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                    </select>
 
-                    </form>
-                    <label for="terminos">Aceptar términos y condiciones del sitio</label>
-                        <input type="checkbox">
-                        <br>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar texto">
-                </fieldset>
+                    <label for="email">e-mail:</label>
+                    <input type="email" placeholder="ingrese su email" id="email">
+                    <br>
+                    <label for="comentario">Dejanos tu comentario:</label>
+                    <br>
+                    <textarea name="" id="" cols="57" rows="10" placeholder="Escribir aqui..."
+                        id="comentario"></textarea>
 
-                <a href="https://api.whatsapp.com/message/ZXF6245DHTWXL1"> <img id="whatsApp" src="Imagenes/Whatsapplogo.png" alt=""></a>
-            
+
+                </form>
+                <label for="terminos">Aceptar términos y condiciones del sitio</label>
+                <input type="checkbox">
+                <hr>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar texto">
+            </fieldset>
+
+            <div id="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2144.8117459967575!2d-64.13086401738501!3d-31.423040719459767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1621437940268!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+            </div>
+
+
         </main>
 
         <div id="sinBoot">
-            <footer> &copy Powered by Mariano Orona 2021</footer>
+            <footer>
+                <ul id="footerLogo">
+                    <li>Lopez y Planes 4244</li>
+                    <li>B° Altamira</li>
+                    <li>Córdoba Argentina</li>
+                    <li><a href="https://www.instagram.com/rinconnaturalcordoba/?hl=es" target="_blank"> <img
+                                id="instaGram" src="Imagenes/instagramlogo.png" alt="Pagina de Instagram"></a> <a
+                            href="https://www.facebook.com/RinconNaturalCba" target="_blank"> <img id="faceBook"
+                                src="Imagenes/facebooklogo.png" alt="Pagina de faceBook"></a></li>
+                    <li id="copy">&copy Copyright 2021 Rincon Natural. All Rights Reserved.</li>
+                </ul>
+            </footer>
         </div>
 
     </div>
-   
+    <a id="logoWhats" href="https://api.whatsapp.com/message/ZXF6245DHTWXL1"> <img id="whatsApp"
+            src="Imagenes/Whatsapplogo.png" alt=""></a>
+
 
 
 

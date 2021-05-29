@@ -2,13 +2,16 @@
 
 /* Asignando color,estilos a títulos */
 #tituloGeneral {
-  color: #ed6ef1;
+  color: whitesmoke;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 1.5;
   line-height: 2;
   padding-left: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+  
 }
 
 #subtituloGeneral {
@@ -18,8 +21,7 @@
   font-weight: bold;
   letter-spacing: 1.5;
   padding-left: 1%;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
+
 }
 
 #estiloTres {
@@ -31,6 +33,9 @@
   background-color: gray;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
 }
 
 /* Agregando color y estilos a parrafos dentro de un section */
@@ -44,15 +49,35 @@
   overflow: hidden;
 }
 
-fieldset legend {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+#contacto {
+  background: rgb(234,161,104);
+background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+  margin-left: 25%;
+  margin-right: 25%;
+  
 }
 
+#maps {
+  margin-top: 3%;
+  margin-left: 37%;
+  
+}
+
+
+
+fieldset legend {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-style: inherit;
+  font-weight: bolder;
+  background-color: lightgray;
+  border-radius: 10%;
+  
+}
+
+
 fieldset label {
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -61,14 +86,18 @@ fieldset label {
 fieldset input {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
+
+
 }
 
 fieldset p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
+  
 }
+
 
 #carouselExampleControls {
   margin-top: 55px;
@@ -92,15 +121,28 @@ fieldset p {
 #sinBoot nav ul {
   height: 100%;
 }
+#grillaPascuas #sinBoot nav ul {
+  height: 120%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
 
-#grilla #sinBoot nav ul {
-  height: 100%;
 }
+
+
 
 #whatsApp {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 15px;
+  bottom: 15px;
+}
+
+#footerLogo li{
+
+  justify-items: center;
+  list-style: none;
+ 
+  
 }
 
 /* Aplicando gradiente a footer */
@@ -109,18 +151,92 @@ fieldset p {
   font-style: normal;
   font-weight: bold;
   color: white;
-  text-align: left;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   background: #8323c3;
   background: linear-gradient(90deg, #8323c3 0%, #ed1717 74%, #e49f3c 100%);
   width: 100%;
   height: 100%;
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 1%;
   overflow: hidden;
-  display: block;
-  margin-top: 10%;
+  display: list-item;
+  margin-top: 25%;
 }
+
+
+#sinBoot footer ul{
+  text-align: center;
+  display: list-item;
+  list-style: none;
+  justify-content:left;
+  align-content:center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: normal;
+  height:auto;
+  
+}
+
+#sinBoot #footerLogo li {
+  display:list-item;
+  position: relative;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+
+
+}
+
+#sinBoot #footerLogo li:hover {
+  display: block;
+  background-color: transparent;
+  
+}
+
+#sinBoot footer img{
+  height: 40px;
+  width: 40px;
+
+}
+#sinBoot #footerLogo {
+  padding-top: 2%;
+}
+
+
+#sinBoot #footerLogo #faceBook{
+  height: 30px;
+  width: 30px;
+  padding-bottom: 0.3%;
+}
+
+#sinBoot footer #facePascuas{
+  height: 30px;
+  width: 30px;
+  padding-bottom: 0.5%;
+}
+
+#grillaIndex #logoWhats img{
+
+  width: 45px;
+  height: 45px;
+}
+
+#grillaPascuas #logoWhats img{
+
+  width: 45px;
+  height: 45px;
+}
+#sinBoot #copy{
+  font-size: 13px;
+  justify-content: center;
+  display: inline;
+  text-align: center;
+
+}
+
 
 /* Modificando Margenes del body */
 .cuerpo {
@@ -153,8 +269,14 @@ header {
   word-spacing: 10px;
   border-style: double;
   overflow: hidden;
-  background: #f1db81;
-  background: linear-gradient(90deg, rgba(241, 219, 129, 0.443015) 0%, rgba(237, 168, 20, 0.465424) 100%);
+  background: rgb(237,23,23);
+background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
+
+}
+
+#estiloflexs img{
+  padding-left: 30%;
+  border-radius: 10%;
 }
 
 #contenedorFlex #estiloflexa {
@@ -175,8 +297,8 @@ header {
   word-spacing: 10px;
   border-style: double;
   overflow: hidden;
-  background: #f1db81;
-  background: linear-gradient(90deg, rgba(241, 219, 129, 0.443015) 0%, rgba(237, 168, 20, 0.465424) 100%);
+  background: rgb(237,23,23);
+background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051995798319328) 0%, rgba(237,24,91,0.835171568627451) 50%);
 }
 
 .estiloflexr1 {
@@ -185,11 +307,12 @@ header {
   margin-top: 2%;
   padding-left: 1%;
   height: 100%;
-  flex-basis: 33%;
+  flex-basis: 53%;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  background-color: grey;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 25px;
   text-decoration: solid;
   word-spacing: 10px;
@@ -198,7 +321,7 @@ header {
 }
 
 /* Aplicando gradiente a nav */
-#sinBoot ul {
+#sinBoot ul{
   display: flex;
   background-color: transparent;
   padding: 0;
@@ -206,12 +329,15 @@ header {
   height: 30px;
   background: #8323c3;
   background: linear-gradient(90deg, #8323c3 0%, #ed1717 74%, #e49f3c 100%);
-  display: flex;
   font-size: 20px;
   justify-content: space-around;
   align-content: center;
   align-items: center;
 }
+#grillaPascuas #sinBoot ul ul {
+  margin-top: 2%;
+}
+
 
 #sinBoot li {
   display: inline-block;
@@ -219,6 +345,7 @@ header {
   text-align: center;
   height: 100%;
   width: 25%;
+  
 }
 
 #sinBoot ul ul {
@@ -246,12 +373,72 @@ header {
 #contenedorFlex {
   display: flex;
   flex-direction: row-reverse;
-  height: 500px;
+  height: 27%;
+}
+#contenedorFlexRepo {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 55%;
+  margin-top: 1%;
+
 }
 
+#contenedorlocal{ 
+
+  display: flex;
+  margin-left: 1%;
+  margin-top: 3%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-top: 1.5%;
+  height: 27%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: solid;
+  word-spacing: 10px;
+  border-style: double;
+  overflow: hidden;
+  background: rgb(237,23,23);
+background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
+
+}
+
+#local img{
+  
+  padding-right: 4%;
+  padding-top: 1%;
+  border-radius: 5%;
+  padding-left: 2%
+  
+}
+#local p{
+  
+  padding-top: 3%;
+
+  
+}
+#videoPascua{
+  padding-left: 12%;
+}
+#videoChoco{
+  padding-left: 5%;
+}
+#videoCrema{
+  padding-left: 5%;
+}
+#grana{
+  width: 50%;
+  padding-left: 22%;
+}
+
+
 input {
-  width: 200px;
-  height: 20px;
+  width: 175px;
+  height: 25px;
+  
 }
 
 form input:focus {
@@ -259,10 +446,11 @@ form input:focus {
   background-color: lightgray;
   font-style: inherit;
   font-size: 14px;
+  
 }
 
 form input {
-  transition: width 2s;
+  transition: width 1s;
 }
 
 #grillaIndex {
@@ -270,7 +458,7 @@ form input {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 12% 3% 75% 10%;
+  grid-template-rows: 10% 3% 70% 8%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -282,11 +470,12 @@ form input {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 5% 61% 14%;
+  grid-template-rows: 12% 5% 58% 10%;
   grid-template-areas: "header"
     "nav"
     "main"
     "footer";
+    overflow: hidden;
 }
 
 #grillaDos {
@@ -366,24 +555,6 @@ form input {
   margin-top: 5%;
 }
 
-#cardf__footer {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  color: white;
-  text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  background: #8323c3;
-  background: linear-gradient(90deg, #8323c3 0%, #ed1717 74%, #e49f3c 100%);
-  width: 100%;
-  height: 100%;
-  padding-left: 5%;
-  padding-top: 3%;
-  overflow: hidden;
-  display: block;
-  margin-top: 15%;
-}
-
 #titulo__galeria {
   color: lightgoldenrodyellow;
   font-family: 'Josefin Sans', sans-serif;
@@ -437,15 +608,11 @@ h4 {
 
 @media only screen and (max-width: 768px) {
   #grillaIndex {
-    grid-template-rows: 13% 12% 66% 8%;
+    grid-template-rows: 7% 5% 35% 7%;
+    
   }
 
-  #grillaIndex a img{
-
-    width: 40px;
-    height: 40px;
-  }
-  #grillaPascuas a img{
+  #logoWhats #whatsApp{
 
     width: 40px;
     height: 40px;
@@ -489,14 +656,27 @@ h4 {
     background-color: violet;
     width: auto;
   }
+  #contenedorFlex {
+    height: 60%;
+  }
 
   #contenedorFlex #estiloflexs {
     flex-basis: 60%;
     overflow: hidden;
   }
+  #contenedorFlex #estiloflexs img{
+    padding-right: 50%;
+  }
 
   #contenedorFlex #estiloflexa {
     flex-basis: 40%;
     overflow: hidden;
+  
   }
+  #contenedorlocal {
+    overflow: hidden;
+    height: 30%;
+  
+  }
+  
 }
