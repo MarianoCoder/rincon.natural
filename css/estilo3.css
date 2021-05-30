@@ -493,6 +493,20 @@ form input {
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
+#recetas{
+  text-decoration:none;
+  background-color: white;
+  color: blueviolet;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 1em;
+  font-weight: bolder;
+
+}
+#estante{
+  padding-left: 12%;
+  
+}
 
 #buscador {
   margin-top: 0;
