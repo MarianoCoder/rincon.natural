@@ -121,7 +121,31 @@ fieldset p {
 #sinBoot nav ul {
   height: 100%;
 }
+
 #grillaPascuas #sinBoot nav ul {
+  height: 110%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+
+}
+#grillaRepo #sinBoot nav ul {
+  height: 120%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+
+}
+
+#grillaHerbo #sinBoot nav ul {
+  height: 120%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+
+}
+
+#grillaConta #sinBoot nav ul {
   height: 120%;
   justify-content: space-around;
   align-content: center;
@@ -137,12 +161,21 @@ fieldset p {
   bottom: 15px;
 }
 
-#footerLogo li{
-
+#sinBoot #footerLogoRepo li{
   justify-items: center;
   list-style: none;
- 
-  
+}
+
+#sinBoot #footerLogoIndex li{
+  justify-items: center;
+  list-style: none;
+}
+
+
+
+#footerLogo li{
+  justify-items: center;
+  list-style: none;
 }
 
 /* Aplicando gradiente a footer */
@@ -175,8 +208,33 @@ fieldset p {
   background-color: transparent;
   font-size: 17px;
   font-weight: normal;
-  height:auto;
+  height: auto;
   
+}
+
+#sinBoot #footerLogoIndex li {
+  display:list-item;
+  position: relative;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+
+}
+
+#sinBoot #footerLogoRepo li {
+  display:list-item;
+  position: relative;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+
+}
+
+#sinBoot #footer {
+  
+  width: 80%
 }
 
 #sinBoot #footerLogo li {
@@ -187,7 +245,18 @@ fieldset p {
   height: 100%;
   padding-top: 10px;
 
+}
 
+#sinBoot #footerLogoIndex li:hover {
+  display: block;
+  background-color: transparent;
+  
+}
+
+#sinBoot #footerLogoRepo li:hover {
+  display: block;
+  background-color: transparent;
+  
 }
 
 #sinBoot #footerLogo li:hover {
@@ -202,9 +271,60 @@ fieldset p {
 
 }
 #sinBoot #footerLogo {
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
+#sinBoot #footerLogoIndex {
+  padding-top: 1%;
+}
+
+#sinBoot #footerLogoRepo {
+  padding-top: 4%;
+  
+}
+
+#grillaHerbo #sinBoot footer{
+
+padding-bottom: 1%;
+width: 95%;
+}
+
+#grillaConta #sinBoot footer{
+
+  padding-bottom: 1%;
+  width: 95%;
+  }
+
+#grillaRepo #sinBoot footer{
+  height: 70%;
+  width: 95%;
+  padding-bottom: 2%;
+
+}
+#sinBoot #footerLogoRepo {
+  
+  padding-top: 1%;
+  padding-bottom: 0;
+  
+}
+
+#sinBoot #footerLogoIndex #faceBook{
+  height: 30px;
+  width: 30px;
+  
+}
+#sinBoot #footerLogoRepo #faceBook{
+  height: 30px;
+  width: 30px;
+  padding-bottom: 0.3%;
+  
+}
+
+#sinBoot #footerLogo #faceBookC{
+  height: 30px;
+  width: 30px;
+  
+}
 
 #sinBoot #footerLogo #faceBook{
   height: 30px;
@@ -215,7 +335,12 @@ fieldset p {
 #sinBoot footer #facePascuas{
   height: 30px;
   width: 30px;
-  padding-bottom: 0.5%;
+  
+}
+#sinBoot footer {
+  height: 100%;
+  overflow: hidden;
+  margin-top: 26%;
 }
 
 #grillaIndex #logoWhats img{
@@ -267,7 +392,6 @@ header {
   font-size: 20px;
   text-decoration: solid;
   word-spacing: 10px;
-  border-style: double;
   overflow: hidden;
   background: rgb(237,23,23);
 background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
@@ -276,7 +400,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 #estiloflexs img{
   padding-left: 30%;
-  border-radius: 10%;
+  
 }
 
 #contenedorFlex #estiloflexa {
@@ -295,13 +419,12 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   font-size: 20px;
   text-decoration: solid;
   word-spacing: 10px;
-  border-style: double;
   overflow: hidden;
   background: rgb(237,23,23);
 background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051995798319328) 0%, rgba(237,24,91,0.835171568627451) 50%);
 }
 
-.estiloflexr1 {
+#estiloflexr1 {
   margin-right: 1%;
   margin-left: 0.5%;
   margin-top: 2%;
@@ -316,7 +439,60 @@ background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051
   font-size: 25px;
   text-decoration: solid;
   word-spacing: 10px;
-  border-style: double;
+  overflow: hidden;
+}
+
+#estiloflexr2 {
+  margin-right: 1%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+  padding-left: 1%;
+  height: 100%;
+  flex-basis: 53%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: grey;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: solid;
+  word-spacing: 10px;
+  overflow: hidden;
+}
+
+#estiloflexr3 {
+  margin-right: 1%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+  padding-left: 1%;
+  height: 90%;
+  flex-basis: 53%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: grey;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: solid;
+  word-spacing: 10px;
+  overflow: hidden;
+}
+
+#estiloflexr4 {
+  margin-right: 1%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+  padding-left: 1%;
+  height: 90%;
+  flex-basis: 53%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: grey;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: solid;
+  word-spacing: 10px;
   overflow: hidden;
 }
 
@@ -334,7 +510,15 @@ background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051
   align-content: center;
   align-items: center;
 }
-#grillaPascuas #sinBoot ul ul {
+#grillaHerbo #sinBoot ul ul {
+  margin-top: 2%;
+}
+
+#grillaConta #sinBoot ul ul {
+  margin-top: 2%;
+}
+
+#grillaRepo #sinBoot ul ul {
   margin-top: 2%;
 }
 
@@ -399,7 +583,6 @@ background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051
   font-size: 20px;
   text-decoration: solid;
   word-spacing: 10px;
-  border-style: double;
   overflow: hidden;
   background: rgb(237,23,23);
 background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
@@ -410,7 +593,6 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   
   padding-right: 4%;
   padding-top: 1%;
-  border-radius: 5%;
   padding-left: 2%
   
 }
@@ -431,7 +613,9 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 }
 #grana{
   width: 50%;
+  height: 50%;
   padding-left: 22%;
+  padding-top: 5%;
 }
 
 
@@ -475,8 +659,57 @@ form input {
     "nav"
     "main"
     "footer";
-    overflow: hidden;
+    
 }
+
+#grillaRepo {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 12% 5% 60% 10%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+#grillaHerbo {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 12% 5% 59% 8%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+#grillaRece {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 12% 5% 60% 10%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+#grillaConta {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 12% 5% 60% 8%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
 
 #grillaDos {
   display: grid;
@@ -622,28 +855,29 @@ h4 {
 
 @media only screen and (max-width: 768px) {
   #grillaIndex {
-    grid-template-rows: 7% 5% 35% 7%;
-    
+    grid-template-rows: 7% 6% 75% 8%;
+  }
+
+  #grillaRepo {
+    grid-template-rows: 7% 6% 99% 10%;
+  }
+
+
+  #grillaHerbo {
+    grid-template-rows: 5% 5% 84% 5%;
+  }
+
+  #grillaRece {
+    grid-template-rows: 8% 6% 70% 11%;
+  }
+
+  #cardh__img{
+    width: 370px;
   }
 
   #logoWhats #whatsApp{
-
     width: 40px;
     height: 40px;
-  }
-
-
-  #grillaPascuas {
-    grid-template-rows: 13% 12% 66% 8%;
-  }
-
-  #grillaIndex img {
-    width: 380px;
-  }
-
-
-  #grillaPascuas img {
-    width: 380px;
   }
 
   #sinBoot #grillaDos {
@@ -671,26 +905,189 @@ h4 {
     width: auto;
   }
   #contenedorFlex {
-    height: 60%;
+    height: 30%;
+    display: inline-block;
+  }
+
+  #contenedorFlex p{
+    font-size: 18px; 
+  }
+
+  #contenedorlocal p{
+    font-size: 18px;
+  }
+
+  #tituloGeneral{
+    padding-top: 10%;
+    font-size: 40px;
+  }
+  #subtituloGeneral{
+    font-size: 30px;
+    letter-spacing: normal;
+    word-spacing: normal;
   }
 
   #contenedorFlex #estiloflexs {
-    flex-basis: 60%;
+    height: 94%;
     overflow: hidden;
+    margin-left: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    text-align: justify;
   }
-  #contenedorFlex #estiloflexs img{
-    padding-right: 50%;
+  
+  #contenedorFlex #estiloflexs #locroFoto{
+    height: 190px;
+    width: 320px;
+    padding-bottom: 3%;
+    padding-left: 10%;
   }
 
   #contenedorFlex #estiloflexa {
-    flex-basis: 40%;
+    height: 53%;
     overflow: hidden;
-  
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    text-align: justify;
   }
+
   #contenedorlocal {
+    display: block;
     overflow: hidden;
-    height: 30%;
+    height: 42%;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 0%;
+    text-align: justify;
+    margin-top: 1%;
+  }
+
+  #contenedorlocal #localFoto {
+   padding-left: 5%;
+   height: 230px;
+   width: 375px;
+  }
+
+  #contenedorFlexRepo {
+    display: inline-block;
+    overflow: hidden;
+    height: 45%;
   
   }
+
+  #sinBoot #footerLogo #faceBook{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 1%;
+  }
+
+  #sinBoot #footerLogoRepo #faceBook{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 1%;
+  }
+
+  #contenedorFlexRepo #estiloflexr1 {
+    display: inline-block;
+    overflow: hidden;
+    height: 55%;
+  }
+
+  #contenedorFlexRepo #estiloflexr2 {
+    display: inline-block;
+    overflow: hidden;
+    height: 60%;
+     
+  }
+
+  #contenedorFlexRepo #estiloflexr3 {
+    display: inline-block;
+    overflow: hidden;
+    height: 55%;
+  }
+
+  #contenedorFlexRepo #estiloflexr4 {
+    display: inline-block;
+    overflow: hidden;
+    height: 50%;
+    padding-right: 1%;
+  }
+
+  #contenedorFlexRepo #estiloflexr1 #videoChoco {
+    height: 50%;
+    width: 90%;
+  }
+
+  #contenedorFlexRepo #estiloflexr2 #videoPascua {
+    height: 40%;
+    width: 70%;
+    padding-left: 13%;
+    
+  }
+
+  #contenedorFlexRepo #estiloflexr3 #videoCrema {
+    height: 50%;
+    width: 90%;
+    
+  }
+
+  #contenedorFlexRepo #estiloflexr4 #grana {
+    height: 45%;
+    width: 70%;
+    padding-left: 16%;
+    
+  }
+
+  #contenedorFlexRepo p{
+    font-size: 18px; 
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+
+  #grillaRece #alfajor{
+    height: 40%;
+    width: 90%;
+    padding-left: 8%;
+  }
+
+  #grillaRece #hibisco {
+    height: 60%;
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  #grillaRece #estiloTres {
+    margin-top: 27%;
+    padding-top: 1%;
+  }
+
+  
+  #grillaRepo #tituloGeneral {
+    text-align: center;
+  }
+
+  #grillaHerbo #tituloGeneral {
+    text-align: center;
+  }
+
+  #grillaHerbo #estiloTres {
+    margin-bottom: 10%;
+  }
+
+  #grillaRece #tituloGeneral {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+
+  
+  
+
+  
+  
+
   
 }
