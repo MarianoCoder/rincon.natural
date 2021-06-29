@@ -49,6 +49,16 @@
   overflow: hidden;
 }
 
+#contendedorflexConta section p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: solid;
+  word-spacing: 10px;
+  overflow: hidden;
+}
+
 #contacto {
   background: rgb(234,161,104);
 background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
@@ -59,7 +69,8 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
 
 #maps {
   margin-top: 3%;
-  margin-left: 37%;
+  margin-left: 5%;
+  padding-bottom: 35%;
   
 }
 
@@ -398,9 +409,28 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 }
 
+
+#contenedorFlexConta #estiloflexsConta {
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-right: 15%;
+  padding-left: 1%;
+  height: 100%;
+  flex-basis: 35%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: solid;
+  word-spacing: 10px;
+  overflow: hidden;
+background: rgb(234,161,104);
+background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+}
+
 #estiloflexs img{
   padding-left: 30%;
-  
 }
 
 #contenedorFlex #estiloflexa {
@@ -422,6 +452,35 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   overflow: hidden;
   background: rgb(237,23,23);
 background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051995798319328) 0%, rgba(237,24,91,0.835171568627451) 50%);
+}
+
+#contenedorFlexConta #estiloflexaConta {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 100%;
+  flex-basis: 30%;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: solid;
+  word-spacing: 5px;
+  overflow: hidden;
+  background: rgb(234,161,104);
+background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+}
+
+
+#contenedorFlexConta #estiloflexaConta #subtituloGeneral{
+  color: black;
+}
+
+#contenedorFlexConta #estiloflexsConta #subtituloGeneral{
+  color: black;
 }
 
 #estiloflexr1 {
@@ -559,12 +618,19 @@ background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051
   flex-direction: row-reverse;
   height: 27%;
 }
+
+#contenedorFlexConta {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 55%;
+  margin-bottom: 0%;
+}
+
 #contenedorFlexRepo {
   display: flex;
   flex-direction: row-reverse;
   height: 55%;
   margin-top: 1%;
-
 }
 
 #contenedorlocal{ 
@@ -703,7 +769,7 @@ form input {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 12% 5% 60% 8%;
+  grid-template-rows: 18% 10% 62% 13%;
   grid-template-areas: "header"
     "nav"
     "main"
@@ -871,6 +937,10 @@ h4 {
     grid-template-rows: 8% 6% 70% 11%;
   }
 
+  #grillaConta {
+    grid-template-rows: 11% 15% 70% 13%;
+  }
+
   #cardh__img{
     width: 370px;
   }
@@ -909,7 +979,17 @@ h4 {
     display: inline-block;
   }
 
+  #contenedorFlexConta {
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+  }
+
   #contenedorFlex p{
+    font-size: 18px; 
+  }
+
+  #contenedorFlexConta p{
     font-size: 18px; 
   }
 
@@ -934,7 +1014,19 @@ h4 {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
+    text-align:left;
+  }
+
+  #contenedorFlexConta #estiloflexsConta {
+    height: 40%;
+    width: 95%;
+    overflow: hidden;
+    margin-left: 1%;
+    padding-left: 0%;
+    padding-right: 3%;
+    padding-top: 2%;
     text-align: justify;
+
   }
   
   #contenedorFlex #estiloflexs #locroFoto{
@@ -950,8 +1042,40 @@ h4 {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
-    text-align: justify;
+    text-align: left;
   }
+
+  #contenedorFlexConta #estiloflexaConta {
+    height: 43%;
+    overflow: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    word-spacing: normal;
+  }
+
+  #grillaConta #estiloflexsConta #maps {
+    height: 70%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 50%;
+    padding-bottom: 35%;
+  }
+
+  #grillaConta #contenedorFlexConta #subtituloGeneral {
+    
+    padding-left: 6%;
+  }
+
+  #grillaConta #contenedorFlexConta p {
+    
+    padding-left: 6%;
+  }
+
 
   #contenedorlocal {
     display: block;
@@ -960,7 +1084,7 @@ h4 {
     padding-left: 2%;
     padding-right: 3%;
     padding-top: 0%;
-    text-align: justify;
+    text-align: left;
     margin-top: 1%;
   }
 
