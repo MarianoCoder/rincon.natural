@@ -776,6 +776,21 @@ form input {
     "footer";
 }
 
+#grillaTienda {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 13% 2% 70% 16%;
+  grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+
+
+
 
 #grillaDos {
   display: grid;
@@ -918,6 +933,8 @@ h4 {
   font-size: 30px;
   color: lightcoral;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   #grillaIndex {
@@ -1207,11 +1224,84 @@ h4 {
     padding-bottom: 5%;
   }
 
-  
-  
+}
 
-  
-  
 
+/* ESTILOS PARA TIENDA.JS */
+
+
+
+#contenedorDeProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
   
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin: 20px;
+  padding: 30px;
+  
+}
+
+.btn {
+  width: 50%;
+  padding: 8px;
+  background-color: black;
+  font-style: 'Montserrat', sans-serif;
+  color: white;
+  border-color: blanchedalmond;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20%;
+}
+
+.nombreProducto{
+
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5;
+    text-align: center;
+}
+.itemPrecio{
+  padding-left: 20%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5;
+}
+
+.classId{
+
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5;
+  padding-left: 25%;
+}
+
+.itemStock{
+
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5;
+  padding-left: 30%;
+}
+
+.itemImg{
+
+  width: 200px;
 }
