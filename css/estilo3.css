@@ -306,6 +306,12 @@ width: 95%;
   width: 95%;
   }
 
+#grillaTienda #sinBoot footer{
+  
+  width: 95%;
+  
+   }
+
 #grillaRepo #sinBoot footer{
   height: 70%;
   width: 95%;
@@ -781,16 +787,12 @@ form input {
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 13% 2% 70% 16%;
+  grid-template-rows: 200px 20px 1600px 200px;
   grid-template-areas: "header"
     "nav"
     "main"
     "footer";
 }
-
-
-
-
 
 #grillaDos {
   display: grid;
@@ -817,53 +819,10 @@ form input {
   font-weight: bolder;
 
 }
-#estante{
-  padding-left: 12%;
-  
-}
-
-#buscador {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 5%;
-  padding-bottom: 0;
-}
-
-#buscador__boton {
-  margin-top: 0;
-  margin-left: 3%;
-  width: 10%;
-  background-color: lightsalmon;
-  border-radius: .3em;
-  justify-content: center;
-}
-
-#buscador__input {
-  height: 29px;
-  border-radius: .3em;
-}
-
-#buscador__buscar {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-  border-radius: .3em;
-  text-align: left;
-}
 
 #card {
   margin-top: 3px;
   display: flex;
-}
-
-#card__contenedor {
-  padding: 3%;
-  margin-top: 3%;
-  margin-left: 3%;
-  width: 30%;
-  background-color: lightgray;
-  border-radius: .3em;
 }
 
 #card__parrafo {
@@ -876,26 +835,9 @@ form input {
 
 #cardh {
   display: grid;
-  height: auto;
+  height: 100%;
 }
 
-#cardh__img {
-  margin-top: 5%;
-}
-
-#titulo__galeria {
-  color: lightgoldenrodyellow;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 50px;
-  font-weight: bold;
-  letter-spacing: 1.5;
-  padding-left: 5%;
-  margin: 0;
-}
-
-#imagen {
-  margin-left: 1%;
-}
 
 #imagen__foto1 {
   padding-left: 2%;
@@ -937,6 +879,7 @@ h4 {
 
 
 @media only screen and (max-width: 768px) {
+
   #grillaIndex {
     grid-template-rows: 7% 6% 75% 8%;
   }
@@ -957,6 +900,7 @@ h4 {
   #grillaConta {
     grid-template-rows: 11% 15% 70% 13%;
   }
+
 
   #cardh__img{
     width: 370px;
@@ -1230,37 +1174,43 @@ h4 {
 /* ESTILOS PARA TIENDA.JS */
 
 
-
-#contenedorDeProductos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
-  
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
+#contenedorDeProductos{
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  display: grid;
   align-items: center;
   text-align: center;
-  width: 500px;
+
+}
+
+#contenedor{
+  display: grid;
   margin: 20px;
   padding: 30px;
-  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloGeneral{
+     
+  padding-left: 40%;
+
 }
 
 .btn {
+  
   width: 50%;
   padding: 8px;
-  background-color: black;
-  font-style: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  background: black;
+  font-style: 'Josefin Sans', sans-serif;
   color: white;
-  border-color: blanchedalmond;
+  border-color: lightgreen;
+  font-weight: bold;
+  border-radius: 5px;
   outline: none;
-  cursor: pointer;
-  margin-left: 20%;
+  cursor:pointer;
+  
 }
 
 .nombreProducto{
@@ -1270,10 +1220,15 @@ h4 {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1.5;
+    margin-top:0;
+    margin-bottom:10px;
     text-align: center;
+    justify-content: center;
+    
 }
 .itemPrecio{
-  padding-left: 20%;
+
+  
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
@@ -1282,26 +1237,282 @@ h4 {
 }
 
 .classId{
-
+  
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1.5;
-  padding-left: 25%;
+  
 }
 
 .itemStock{
 
+  
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1.5;
-  padding-left: 30%;
+  
 }
 
 .itemImg{
 
   width: 200px;
+  height: 150px;
+  border-radius: 3px;
 }
+
+
+
+/* The sidebar menu */
+
+.cart{
+
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  
+}
+
+.sidebar {
+ display: grid;
+  text-align: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background: rgb(95,102,99);
+background: linear-gradient(90deg, rgba(95,102,99,1) 0%, rgba(122,134,129,1) 53%, rgba(112,120,115,1) 100%);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+  
+  
+}
+
+/* The sidebar links */
+.sidebar a {
+  text-align: center;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  font-weight: bolder;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 50%;
+  height: 30px;
+  
+}
+.sidebar a:hover {
+  color: lightgreen;
+}
+.openbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+i.fa-shopping-cart {
+  position: absolute;
+  top: 26%;
+  margin-left: -2.7%;
+  font-size: 30px;
+  color: rgb(55, 226, 55);
+}
+.nav {
+  text-align: right;
+  width: 100%;
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #05c61f;
+}
+#cartCount {
+  align-items: right;
+  position: absolute;
+  font-size: 15px;
+  background: #f12a2a;
+  color: #fff;
+  padding: 0 5px;
+  top: 23%;
+  margin-left: -10px;
+}
+.openbtn {
+  margin: 20px;
+}
+
+#clear{
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  font-style: 'Josefin Sans', sans-serif;
+  color: white;
+  border-color: blanchedalmond;
+  outline: none;
+  cursor:pointer;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+
+#btncomprar{
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  font-style: 'Josefin Sans', sans-serif;
+  color: white;
+  border-color: blanchedalmond;
+  outline: none;
+  cursor:pointer;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+
+.btn-remover{
+  width: 45%;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: black;
+  font-style: 'Josefin Sans', sans-serif;
+  color: white;
+  border-color: blanchedalmond;
+  outline: none;
+  cursor:pointer;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.sidebar .itemImg{
+  width: 200px;
+  height: 150px;
+  padding-left: 20px;
+  border-radius: 3px;
+  
+}
+.sidebar .classId{
+  text-align: center;
+}
+
+.sidebar .itemPrecio{
+  text-align: center;
+
+}
+
+.sidebar .itemStock{
+text-align: center;
+}
+
+.sidebar div{
+margin-right: 3%;
+
+}
+
+#montoTotal{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+  #grillaTienda {
+    grid-template-rows: 5% 5% 90% 5%;
+    
+  }
+
+  #contenedorDeProductos{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
+  
+  }
+
+  #contenedor{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+  
+  }
+
+  .nombreProducto{
+
+    font-size: 25px;
+    word-spacing: 20px;
+     
+   }
+
+  #tituloGeneral{
+     
+     padding-bottom: 50px;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+  }
+
+  .itemPrecio{
+
+    font-size: 20px;
+
+  }
+  
+  .classId{
+    
+    font-size: 15px;
+    
+  }
+  
+  .itemStock{
+  
+    font-size: 15px;
+    
+
+  }
+  
+  .itemImg{
+  
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+  }
+
+  i.fa-shopping-cart {
+    position: absolute;
+    top: 4%;
+   
+   
+  }
+
+  #cartCount {
+  
+  top: 1%;
+  margin-left: -10px;
+}
+
+
+
+
+}
+
+
