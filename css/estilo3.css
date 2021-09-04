@@ -1191,7 +1191,7 @@ h4 {
   align-items: center;
 }
 
-#tituloGeneral{
+#grillaTienda #tituloGeneral{
      
   padding-left: 40%;
 
@@ -1462,8 +1462,8 @@ margin-right: 3%;
      
    }
 
-  #tituloGeneral{
-     
+  #grillaTienda #tituloGeneral{
+     padding-left: 10px;
      padding-bottom: 50px;
      justify-content: center;
      text-align: center;
@@ -1508,7 +1508,17 @@ margin-right: 3%;
   
   top: 1%;
   margin-left: -10px;
-}
+  }
+
+  .itemImg{
+
+    width: 180px;
+    height: 130px;
+    
+  }
+  
+
+  
 
 
 
