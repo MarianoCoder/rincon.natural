@@ -25,6 +25,21 @@
 
 }
 
+#estiloTresR {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align:start;
+  background-color: gray;
+  margin: 10px;
+  height: 630px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+
+
 #estiloTres {
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -752,9 +767,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   width: 370px;
   height: 250px;
   border-radius: 0.5rem;
-  animation: slide-left;
-  animation-duration: 5s;
-  animation-iteration-count:infinite;
+ 
 }
 
 #lavanda{
@@ -879,6 +892,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   margin: 1rem;
   word-spacing: 0.2rem;
   
+  
 }
 
 #alfajor {
@@ -933,12 +947,12 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   
 }
 
-#recetasBlock #subtituloGeneral{
-  
-  padding-left: 1rem;
-  
-}
 
+
+#grillaRece #subtituloGeneral{
+  padding-left:10px;
+  text-align: justify;
+}
 
 #card {
   margin-top: 3px;
@@ -1056,7 +1070,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
   #grillaTienda {
-    grid-template-rows: 110px 150px 94% 200px;
+    grid-template-rows: 150px 150px 94% 200px;
     
   }
 
@@ -1109,18 +1123,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   .classId{
     
     font-size: 15px;
-    
   }
-  
 
   .itemImg{
 
     height: 130px;
     width: 190px;
-    
   }
-  
-
 
   #grillaIndex {
     grid-template-rows: 4% 4% 88% 5%;
@@ -1132,15 +1141,15 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
   #grillaHerbo {
-    grid-template-rows: 5% 5% 84% 5%;
+    grid-template-rows: 150px 100px 3800px 190px;
   }
 
   #grillaRece {
-    grid-template-rows: 8% 6% 70% 11%;
+    grid-template-rows: 150px 100px 2520px 190px;
   }
 
   #grillaConta {
-    grid-template-rows: 11% 15% 70% 13%;
+    grid-template-rows: 150px 160px 700px 130px;
   }
 
   #cardh__img{
@@ -1193,8 +1202,6 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     width: 100%;
     display: inline-block;
     font-size: 16px;
-    
-    
   }
 
   #contenedorFlexConta {
@@ -1313,11 +1320,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #sinBoot #footerLogoRepo {
-    
     font-size: 14px;
-    
-    
   }
+
+  #sinBoot #footerLogo {
+    font-size: 14px;
+  }
+  
 
   #grillaRepo #sinBoot {
     
@@ -1325,9 +1334,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     line-height: 0.9rem;
     margin-bottom: 0;
     padding-left:0;
-
     
   }
+
+  #grillaConta #sinBoot #grillaDos {
+    height: 140px;
+  }
+  
 
   #contenedorFlexConta #estiloflexaConta {
     height: 43%;
@@ -1338,6 +1351,8 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     word-spacing: normal;
+    font-size: 16px;
+    margin-bottom: 0;
     
   }
 
@@ -1351,9 +1366,17 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-bottom: 35%;
   }
 
+  
+  #grillaConta #sinBoot #footer {
+    
+    margin-top: 0;
+  }
+  
+
   #grillaConta #contenedorFlexConta #subtituloGeneral {
     
-    padding-left: 6%;
+    font-size: 22px;
+    margin-left: 10px;
   }
 
   #grillaConta #contenedorFlexConta p {
@@ -1510,26 +1533,148 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-top: 1%;
   }
 
-  
-  #grillaRepo #tituloGeneral {
+  #grillaRece #subtituloGeneral{
+    padding-left: 0;
     text-align: center;
   }
 
-  #grillaHerbo #tituloGeneral {
-    text-align: center;
+  #grillaRece #textoReceta{
+    padding-left: 7px;
+    margin-right: 0px;
+    
   }
+
 
   #grillaHerbo #estiloTres {
-    margin-bottom: 10%;
+    margin-top: 3rem;
+    margin-left:1%;
+    margin-right:1%;
+    padding: 1rem;
+    height: 3715px;
+    width: 87%;
+    display: inline-block;
+    font-size: 16px;
   }
 
-  #grillaRece #tituloGeneral {
+  #imagenesHerbo {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #manzanilla {
+    height: 190px;
+    width: 260px;
+    margin-left: 0;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3%;
+  }
+
+  #lavanda {
+    height: 190px;
+    width: 260px;
+    margin-left: 0;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3%;
+    
+  }
+
+  #grillaHerbo #sinBoot #grillaDos {
+    height: 140px;
+  }
+
+  #grillaRece #recetasArt {
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+    padding: 0.3rem;
+    height: 850px;
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #grillaRece #estiloTresR {
+    height: 450px;
+    width: 265px;
+    margin: 0.1rem;
+    padding: 1px;
+    padding-top: 0.5rem;
+    
+  }
+
+  #recetasBlock {
+    width: 100%;
+  }
+
+  #recetas {
+    font-size: 16px;
+    justify-content: center;
     text-align: center;
-    padding-top: 0;
-    padding-bottom: 5%;
+    align-items: center;
+    margin-left: 1.7rem;
+  }
+    
+  #grillaRece #alfajor {
+    height: 210px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    padding-left: 2%;
+    border-radius: 8px;
   }
 
+  #grillaRece #hibisco {
+    height: 210px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    padding-left: 1%;
+    border-radius: 8px;
+  }
+
+  #grillaRece #muffins {
+    height: 200px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    padding-left: 1%;
+    border-radius: 8px;
+  }
   
+  #grillaRece #bombones {
+    height: 170px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    padding-left: 1%;
+    border-radius: 8px;
+  }
+
+  #grillaRece #humus {
+    height: 200px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #grillaRece #cuadraditos {
+    height: 200px;
+    width: 220px;
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #grillaRece #textoReceta {
+    font-size: 16px;
+    width: 200px;
+    
+  }
+
   
 
   
