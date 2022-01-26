@@ -1286,7 +1286,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #cchocolate{
-    height: 205px;
+    height: 240px;
   }
   #productoIndex{
     width: 100%;
@@ -1306,7 +1306,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     height: 280px;
     width: 280px;
     justify-content: center;
-    margin-left: 1rem;
+    margin-left: 3rem;
     padding: 1%;
     border-radius: 0.6rem;
     
@@ -1316,7 +1316,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     height: 1190px;
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 10%;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
@@ -1348,9 +1348,9 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #contenedorFlex #estiloflexa #arandano {
-    height: 150px;
-    width: 300px;
-    margin-left: 0.4rem;
+    height: 170px;
+    width: 310px;
+    margin-left: 1.4rem;
     border-radius: 0.4rem;
     
   }
@@ -1439,7 +1439,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   #contenedorlocal {
     display: block;
     overflow: hidden;
-    height: 970px;
+    height: 910px;
     padding-left: 2%;
     padding-right: 3%;
     padding-top: 0%;
@@ -1450,9 +1450,10 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   #contenedorlocal #localFoto {
    
-   height: 330px;
-   width: 330px;
-   padding-left: 0.3rem;
+   height: 390px;
+   width: 390px;
+   padding-left: 0;
+   border-radius: 0;
    
   }
 
