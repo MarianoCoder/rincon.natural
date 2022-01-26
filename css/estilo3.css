@@ -1280,46 +1280,53 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #carouselExampleControls{
-    margin-top: 2.5rem;
+    margin-top: 2.2rem;
     margin-bottom: 0;
-    height: 12rem;
+    height: 13rem;
   }
 
   #cchocolate{
-    height: 180px;
+    height: 205px;
   }
   #productoIndex{
-    width: 260px;
+    width: 100%;
     display: inline-block;
     justify-content: center;
+    margin: 0;
+  }
+
+  #grillaIndex #subtituloGeneral{
+    padding-top:0.5rem;
+    text-align: center;
   }
 
 
 
   #contenedorFlex #estiloflexs #productoIndex #kingFoto{
-    height: 180px;
-    width:210px;
+    height: 280px;
+    width: 280px;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 1rem;
+    padding: 1%;
+    border-radius: 0.6rem;
     
   }
 
   #contenedorFlex #estiloflexs {
-    height: 930px;
+    height: 1190px;
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 0;
+    margin-top: 1%;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
-    text-align:left;
+    text-align: left;
     
   }
 
   #contenedorFlexConta #estiloflexsConta {
     height: 40%;
     width: 95%;
-    
     margin-left: 1%;
     padding-left: 0%;
     padding-right: 3%;
@@ -1328,16 +1335,10 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   }
   
-  #contenedorFlex #estiloflexs #kingFoto{
-    height: 190px;
-    width: 320px;
-    padding-bottom: 3%;
-    padding-left: 10%;
-    
-  }
+  
 
   #contenedorFlex #estiloflexa {
-    height: 430px;
+    height: 400px;
     overflow: hidden;
     padding-left: 3%;
     padding-right: 3%;
@@ -1347,9 +1348,10 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #contenedorFlex #estiloflexa #arandano {
-    height: 140px;
-    width: 240px;
-    margin-left: 0.8rem;
+    height: 150px;
+    width: 300px;
+    margin-left: 0.4rem;
+    border-radius: 0.4rem;
     
   }
 
@@ -1448,8 +1450,9 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   #contenedorlocal #localFoto {
    
-   height: 280px;
-   width: 280px;
+   height: 330px;
+   width: 330px;
+   padding-left: 0.3rem;
    
   }
 
