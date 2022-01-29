@@ -1112,7 +1112,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
   #grillaTienda {
-    grid-template-rows: 150px 150px 94% 200px;
+    grid-template-rows: 1.5% 2.7% 70% 5%;
     
   }
 
@@ -1121,20 +1121,17 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     display: grid;
     align-items: center;
     text-align: center;
-    margin-top:4rem;
     
-
-  
   }
 
   #contenedor{
     display: grid;
     align-items: center;
     text-align: center;
-    height:180px;
-    width: 190px;
-    margin-left: 12%;
-    margin-bottom: 5%;
+    height: 110%;
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 1%;
    
   
   }
@@ -1145,32 +1142,28 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     justify-content: center;
      text-align: center;
      align-items: center;
+     width: 100%;
+     margin-bottom: 0;
     
      
    }
 
   #grillaTienda #tituloGeneral{
      
-     padding-bottom: 50px;
+     padding-bottom: 0;
+     padding-top: 4%;
+     margin-bottom: 1%;
      justify-content: center;
      text-align: center;
      align-items: center;
-     font-size: 20px;
-     
-
+     font-size: 25px;
   }
-
-
   
-  .classId{
-    
-    font-size: 15px;
-  }
 
-  .itemImg{
+  #grillaTienda .itemImg{
 
-    height: 130px;
-    width: 190px;
+    height: 150%;
+    width: 100%;
   }
 
   #grillaIndex {
@@ -1437,7 +1430,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   #contenedorlocal {
     display: block;
     overflow: hidden;
-    height: 910px;
+    height: 32%;
     padding-left: 2%;
     padding-right: 3%;
     padding-top: 0%;
