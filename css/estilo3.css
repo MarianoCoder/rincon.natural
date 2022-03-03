@@ -1373,6 +1373,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     
   }
 
+  #grillaRepo #subtituloGeneral{
+    padding-top:0.5rem;
+    text-align: center;
+  }
+
+
+
   #grillaConta #sinBoot #grillaDos {
     height: 140px;
   }
@@ -1441,8 +1448,8 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   #contenedorlocal #localFoto {
    
-   height: 390px;
-   width: 390px;
+   height: 110%;
+   width: 110%;
    padding-left: 0;
    border-radius: 0;
    
@@ -1489,6 +1496,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   #contenedorFlexRepo .estiloTres{
     font-size: 16px;
+    padding: 0;
   }
 
   #contenedorFlexRepo #estiloflexr1 {
@@ -1527,29 +1535,29 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #contenedorFlexRepo #estiloflexr1 #videoChoco {
-    height: 270px;
-    width: 270px;
+    height: 55%;
+    width: 99%;
     padding-left:0.2rem;
   }
 
   #contenedorFlexRepo #estiloflexr2 #videoPascua {
-    height: 270px;
-    width: 270px;
+    height: 48%;
+    width: 99%;
     padding-left:0.2rem;
     
   }
 
   #contenedorFlexRepo #estiloflexr3 #videoCrema {
-    height: 270px;
-    width: 270px;
+    height: 59%;
+    width: 99%;
     padding-left:0.2rem;
     
   }
 
   #contenedorFlexRepo #estiloflexr4 #grana {
-    height: 210px;
-    width: 200px;
-    padding-left: 1.5rem;
+    height: 55%;
+    width: 59%;
+    padding-left: 4rem;
     
   }
 
