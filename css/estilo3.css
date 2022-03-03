@@ -11,8 +11,8 @@
   padding-left: 1%;
   margin-top: 0;
   margin-bottom: 0;
-  
-  
+
+
 }
 
 #subtituloGeneral {
@@ -30,7 +30,6 @@
   color: white;
   font-size: 20px;
   font-weight: bolder;
-  text-align:start;
   background-color: gray;
   margin: 10px;
   height: 630px;
@@ -45,15 +44,15 @@
   color: white;
   font-size: 20px;
   font-weight: bolder;
-  text-align:start;
+  text-align: start;
   background-color: gray;
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 1%;
-  
-  
+
+
 }
 
 /* Agregando color y estilos a parrafos dentro de un section */
@@ -78,18 +77,18 @@
 }
 
 #contacto {
-  background: rgb(234,161,104);
-background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+  background: rgb(234, 161, 104);
+  background: linear-gradient(90deg, rgba(234, 161, 104, 0.8379726890756303) 0%, rgba(238, 181, 126, 0.8407738095238095) 100%);
   margin-left: 25%;
   margin-right: 25%;
-  
+
 }
 
 #maps {
   margin-top: 2%;
-  margin-left:5%;
+  margin-left: 5%;
   padding-bottom: 35%;
-  
+
 }
 
 
@@ -101,7 +100,7 @@ fieldset legend {
   font-weight: bolder;
   background-color: lightgray;
   border-radius: 10%;
-  
+
 }
 
 
@@ -122,7 +121,7 @@ fieldset input {
 
 
 
-.carousel-inner{
+.carousel-inner {
   height: 500px;
 }
 
@@ -144,7 +143,7 @@ fieldset input {
 
 #sinBoot nav {
   display: grid;
-  
+
 }
 
 
@@ -160,6 +159,7 @@ fieldset input {
   align-items: center;
 
 }
+
 #grillaRepo #sinBoot nav ul {
   height: 120%;
   justify-content: space-around;
@@ -192,29 +192,29 @@ fieldset input {
   bottom: 15px;
 }
 
-#sinBoot #footerLogoRepo li{
+#sinBoot #footerLogoRepo li {
   justify-items: center;
   list-style: none;
 }
 
-#sinBoot #footerLogoIndex li{
+#sinBoot #footerLogoIndex li {
   justify-items: center;
   list-style: none;
-  
+
 }
 
 
 
 
-#footerLogo li{
+#footerLogo li {
   justify-items: center;
   list-style: none;
 }
 
 #grillaIndex #sinBoot footer {
 
-  margin-top:0;
-} 
+  margin-top: 0;
+}
 
 /* Aplicando gradiente a footer */
 #sinBoot footer {
@@ -236,24 +236,24 @@ fieldset input {
 }
 
 
-#sinBoot footer ul{
+#sinBoot footer ul {
   text-align: center;
   display: list-item;
   list-style: none;
-  justify-content:left;
-  align-content:center;
+  justify-content: left;
+  align-content: center;
   align-items: center;
   background-color: transparent;
   font-size: 17px;
   font-weight: normal;
   height: auto;
-  
+
 }
 
 #sinBoot #footerLogoIndex li {
-  display:list-item;
+  display: list-item;
   position: relative;
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 100%;
   padding-top: 10px;
@@ -261,9 +261,9 @@ fieldset input {
 }
 
 #sinBoot #footerLogoRepo li {
-  display:list-item;
+  display: list-item;
   position: relative;
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 100%;
   padding-top: 10px;
@@ -271,14 +271,14 @@ fieldset input {
 }
 
 #sinBoot #footer {
-  
+
   width: 80%
 }
 
 #sinBoot #footerLogo li {
-  display:list-item;
+  display: list-item;
   position: relative;
-  text-align:center;
+  text-align: center;
   width: 100%;
   height: 100%;
   padding-top: 10px;
@@ -288,26 +288,27 @@ fieldset input {
 #sinBoot #footerLogoIndex li:hover {
   display: block;
   background-color: transparent;
-  
+
 }
 
 #sinBoot #footerLogoRepo li:hover {
   display: block;
   background-color: transparent;
-  
+
 }
 
 #sinBoot #footerLogo li:hover {
   display: block;
   background-color: transparent;
-  
+
 }
 
-#sinBoot footer img{
+#sinBoot footer img {
   height: 40px;
   width: 40px;
 
 }
+
 #sinBoot #footerLogo {
   padding-top: 1%;
 }
@@ -318,113 +319,118 @@ fieldset input {
 
 #sinBoot #footerLogoRepo {
   padding-top: 4%;
-  
+
 }
 
-#grillaHerbo #sinBoot footer{
-
-padding-bottom: 1%;
-width: 95%;
-}
-
-#grillaConta #sinBoot footer{
+#grillaHerbo #sinBoot footer {
 
   padding-bottom: 1%;
   width: 95%;
-  }
+}
 
-#grillaRepo #sinBoot footer{
+#grillaConta #sinBoot footer {
+
+  padding-bottom: 1%;
+  width: 95%;
+}
+
+#grillaRepo #sinBoot footer {
   height: 70%;
   width: 95%;
   padding-bottom: 2%;
 
 }
+
 #sinBoot #footerLogoRepo {
-  
+
   padding-top: 1%;
   padding-bottom: 0;
-  
+
 }
 
-#sinBoot #footerLogoIndex #faceBook{
+#sinBoot #footerLogoIndex #faceBook {
   height: 30px;
   width: 30px;
-  
+
 }
-#sinBoot #footerLogoRepo #faceBook{
+
+#sinBoot #footerLogoRepo #faceBook {
   height: 30px;
   width: 30px;
   padding-bottom: 0.3%;
-  
+
 }
 
-#sin
-#grillaTienda #sinBoot footer{
-  
-  width: 95%;
-  
-   }
+#sin #grillaTienda #sinBoot footer {
 
-#grillaRepo #sinBoot footer{
+  width: 95%;
+
+}
+
+#grillaRepo #sinBoot footer {
   height: 70%;
   width: 95%;
   padding-bottom: 2%;
 
 }
+
 #sinBoot #footerLogoRepo {
-  
+
   padding-top: 1%;
   padding-bottom: 0;
-  
+
 }
 
-#sinBoot #footerLogoIndex #faceBook{
+#sinBoot #footerLogoIndex #faceBook {
   height: 30px;
   width: 30px;
-  
+
 }
-#sinBoot #footerLogoRepo #faceBook{
+
+#sinBoot #footerLogoRepo #faceBook {
   height: 30px;
   width: 30px;
   padding-bottom: 0.3%;
-  
+
 }
 
-#sinBoot #footerLogo #faceBookC{
+#sinBoot #footerLogo #faceBookC {
   height: 30px;
   width: 30px;
-  
+
 }
 
-#sinBoot #footerLogo #faceBook{
+#sinBoot #footerLogo #faceBook {
   height: 30px;
   width: 30px;
   padding-bottom: 0.3%;
 }
 
-#sinBoot footer #facePascuas{
+#sinBoot footer #facePascuas {
   height: 30px;
   width: 30px;
-  
+
 }
+
 #sinBoot footer {
   height: 100%;
   overflow: hidden;
   margin-top: 26%;
 }
 
-#grillaIndex #logoWhats img{
+#grillaIndex #logoWhats img {
 
   width: 45px;
   height: 45px;
 }
 
-#grillaPascuas #logoWhats img{
+#grillaPascuas #logoWhats img {
 
   width: 45px;
   height: 45px;
 }
-#sinBoot #copy{
+
+#sinBoot #copy {
   font-size: 13px;
   justify-content: center;
   display: inline;
@@ -463,9 +469,9 @@ header {
   font-size: 20px;
   text-decoration: solid;
   word-spacing: 10px;
-  
-  background: rgb(237,23,23);
-background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
+
+  background: rgb(237, 23, 23);
+  background: linear-gradient(128deg, rgba(237, 23, 23, 1) 0%, rgba(236, 38, 25, 0.9051995798319328) 18%, rgba(232, 161, 45, 0.7567401960784313) 100%);
 
 
 }
@@ -489,11 +495,11 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   text-decoration: solid;
   word-spacing: 5px;
   overflow: hidden;
-background: rgb(234,161,104);
-background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+  background: rgb(234, 161, 104);
+  background: linear-gradient(90deg, rgba(234, 161, 104, 0.8379726890756303) 0%, rgba(238, 181, 126, 0.8407738095238095) 100%);
 }
 
-#productoIndex{
+#productoIndex {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1.5rem;
@@ -518,19 +524,19 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
   text-decoration: solid;
   word-spacing: 5px;
   overflow: hidden;
-  background: rgb(237,23,23);
-background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051995798319328) 0%, rgba(237,24,91,0.835171568627451) 50%);
+  background: rgb(237, 23, 23);
+  background: linear-gradient(310deg, rgba(237, 23, 23, 1) 0%, rgba(236, 25, 228, 0.9051995798319328) 0%, rgba(237, 24, 91, 0.835171568627451) 50%);
 
 }
 
-#arandano{
-  
+#arandano {
+
   height: 150px;
   width: 330px;
   display: flex;
   border-radius: 0.5rem;
   margin-left: 1.1rem;
-  
+
 }
 
 #contenedorFlexConta #estiloflexaConta {
@@ -544,37 +550,36 @@ background: linear-gradient(310deg, rgba(237,23,23,1) 0%, rgba(236,25,228,0.9051
   height: 100%;
   flex-basis: 30%;
   font-family: 'Montserrat', sans-serif;
-  color:black;
+  color: black;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   text-decoration: solid;
   word-spacing: 5px;
   overflow: hidden;
-  background: rgb(234,161,104);
-background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba(238,181,126,0.8407738095238095) 100%);
+  background: rgb(234, 161, 104);
+  background: linear-gradient(90deg, rgba(234, 161, 104, 0.8379726890756303) 0%, rgba(238, 181, 126, 0.8407738095238095) 100%);
 }
 
 
-#contenedorFlexConta #estiloflexaConta #subtituloGeneral{
+#contenedorFlexConta #estiloflexaConta #subtituloGeneral {
   color: black;
   font-size: 30px;
 }
 
-#contenedorFlexConta #estiloflexsConta #subtituloGeneral{
+#contenedorFlexConta #estiloflexsConta #subtituloGeneral {
   color: black;
   font-size: 30px;
   padding-left: 4%
- 
 }
 
-#contenedorFlex #estiloflexs #kingFoto{
+#contenedorFlex #estiloflexs #kingFoto {
   border-radius: 5%;
   display: flex;
   padding: 0.5rem;
   height: 280px;
   width: 300px;
-  
+
 }
 
 
@@ -652,7 +657,7 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
 }
 
 /* Aplicando gradiente a nav */
-#sinBoot ul{
+#sinBoot ul {
   display: flex;
   background-color: transparent;
   padding: 0;
@@ -665,6 +670,7 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
   align-content: center;
   align-items: center;
 }
+
 #grillaHerbo #sinBoot ul ul {
   margin-top: 2%;
 }
@@ -684,7 +690,7 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
   text-align: center;
   height: 100%;
   width: 25%;
-  
+
 }
 
 #sinBoot ul ul {
@@ -727,12 +733,12 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
   display: flex;
   flex-direction: row-reverse;
   height: 720px;
-  
+
 }
 
 
 
-#contenedorlocal{ 
+#contenedorlocal {
 
   display: flex;
   margin-left: 1%;
@@ -750,8 +756,8 @@ background: linear-gradient(90deg, rgba(234,161,104,0.8379726890756303) 0%, rgba
   word-spacing: 5px;
   line-height: 2rem;
   overflow: hidden;
-  background: rgb(237,23,23);
-background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.9051995798319328) 18%, rgba(232,161,45,0.7567401960784313) 100%);
+  background: rgb(237, 23, 23);
+  background: linear-gradient(128deg, rgba(237, 23, 23, 1) 0%, rgba(236, 38, 25, 0.9051995798319328) 18%, rgba(232, 161, 45, 0.7567401960784313) 100%);
 
 }
 
@@ -761,7 +767,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
 
-#localFoto{
+#localFoto {
 
   height: 450px;
   padding-right: 1rem;
@@ -769,48 +775,53 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   padding-bottom: 1rem;
   padding-left: 1rem;
   border-radius: 5%;
-  
+
 }
-#local p{
+
+#local p {
   margin: 1rem;
 }
-#videoPascua{
+
+#videoPascua {
   padding-left: 12%;
 }
-#videoChoco{
+
+#videoChoco {
   padding-left: 5%;
 }
-#videoCrema{
+
+#videoCrema {
   padding-left: 5%;
 }
-#grana{
+
+#grana {
   width: 270px;
   height: 300px;
   padding-left: 22%;
   padding-top: 5%;
 }
 
-#imagenesHerbo{
+#imagenesHerbo {
   display: flex;
   justify-content: space-evenly;
 }
 
-#manzanilla{
+#manzanilla {
   width: 370px;
   height: 250px;
   border-radius: 0.5rem;
- 
+
 }
 
-#lavanda{
+#lavanda {
   width: 370px;
   height: 250px;
   border-radius: 0.5rem;
   margin-right: 1rem;
 }
 
-#contenedorLavanda{
-  display:inline-block;
+#contenedorLavanda {
+  display: inline-block;
 }
 
 
@@ -837,7 +848,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     "nav"
     "main"
     "footer";
-    
+
 }
 
 #grillaRepo {
@@ -915,10 +926,11 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
-#recetas{
 
-  
-  text-decoration:none;
+#recetas {
+
+
+  text-decoration: none;
   background-color: white;
   color: blueviolet;
   font-family: 'Montserrat', sans-serif;
@@ -931,11 +943,11 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 }
 
 
-#textoReceta{
+#textoReceta {
   margin: 1rem;
   word-spacing: 0.2rem;
-  
-  
+
+
 }
 
 #alfajor {
@@ -975,7 +987,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 }
 
 #recetasArt {
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -986,14 +998,14 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   width: 600px;
   display: inline-block;
   word-spacing: 0;
-  
-  
+
+
 }
 
 
 
-#grillaRece #subtituloGeneral{
-  padding-left:10px;
+#grillaRece #subtituloGeneral {
+  padding-left: 10px;
   text-align: justify;
 }
 
@@ -1018,13 +1030,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 /*TIENDA*/
 
-#grillaTienda #sinBoot footer{
-  
-  width: 95%;
-  
-   }
+#grillaTienda #sinBoot footer {
 
-   
+  width: 95%;
+
+}
+
+
 #grillaTienda {
   display: grid;
   height: 100%;
@@ -1039,7 +1051,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
 
-#contenedorDeProductos{
+#contenedorDeProductos {
   grid-template-columns: 20% 20% 20% 20% 20%;
   display: grid;
   align-items: center;
@@ -1048,7 +1060,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 }
 
-#contenedor{
+#contenedor {
   display: grid;
   margin: 1rem;
   padding: 1rem;
@@ -1058,34 +1070,34 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   height: 200px
 }
 
-.nombreProducto{
+.nombreProducto {
 
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    
-    margin-top:0;
-    margin-bottom:10px;
-    text-align: center;
-    margin-right: 0.1rem;
-   
-    
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 0.1rem;
+
+
 }
 
-.itemImg{
+.itemImg {
 
   width: 200px;
   height: 150px;
   border-radius: 3px;
 }
 
-#contenedorFlex #estiloflexs #kingFoto:hover{
-  
-  transform: scale(1.2 , 1.2 );
+#contenedorFlex #estiloflexs #kingFoto:hover {
+
+  transform: scale(1.2, 1.2);
   transition: 1s;
-  
-  
+
+
 
 }
 
@@ -1113,18 +1125,18 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
   #grillaTienda {
     grid-template-rows: 1.5% 2.7% 70% 5%;
-    
+
   }
 
-  #contenedorDeProductos{
-    grid-template-columns: 100% ;
+  #contenedorDeProductos {
+    grid-template-columns: 100%;
     display: grid;
     align-items: center;
     text-align: center;
-    
+
   }
 
-  #contenedor{
+  #contenedor {
     display: grid;
     align-items: center;
     text-align: center;
@@ -1132,35 +1144,35 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     width: 90%;
     margin-left: 0;
     margin-bottom: 1%;
-   
-  
+
+
   }
 
-  .nombreProducto{
+  .nombreProducto {
 
     font-size: 20px;
     justify-content: center;
-     text-align: center;
-     align-items: center;
-     width: 100%;
-     margin-bottom: 0;
-    
-     
-   }
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
 
-  #grillaTienda #tituloGeneral{
-     
-     padding-bottom: 0;
-     padding-top: 4%;
-     margin-bottom: 1%;
-     justify-content: center;
-     text-align: center;
-     align-items: center;
-     font-size: 25px;
+
   }
-  
 
-  #grillaTienda .itemImg{
+  #grillaTienda #tituloGeneral {
+
+    padding-bottom: 0;
+    padding-top: 4%;
+    margin-bottom: 1%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+
+  #grillaTienda .itemImg {
 
     height: 150%;
     width: 100%;
@@ -1176,7 +1188,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
 
 
   #grillaHerbo {
-    grid-template-rows: 150px 100px 3800px 190px;
+    grid-template-rows: 150px 100px 3300px 190px;
   }
 
   #grillaRece {
@@ -1184,15 +1196,15 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #grillaConta {
-    grid-template-rows: 150px 160px 650px 130px;
+    grid-template-rows: 150px 160px 655px 130px;
   }
 
 
-  #cardh__img{
+  #cardh__img {
     width: 270px;
   }
 
-  #logoWhats #whatsApp{
+  #logoWhats #whatsApp {
     width: 40px;
     height: 40px;
   }
@@ -1204,21 +1216,21 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     align-items: center;
     justify-items: center;
     height: 150px;
-    padding:1px;
+    padding: 1px;
     margin: 0;
-    
+
   }
 
-  
 
-  #sinBoot #grillaDos li a{
+
+  #sinBoot #grillaDos li a {
     font-size: 18px;
   }
 
   #sinBoot #grillaDos li {
     width: 100%;
     height: auto;
-    
+
   }
 
   #sinBoot ul li:hover ul {
@@ -1246,61 +1258,62 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     margin: 0;
   }
 
-  #contenedorFlex p{
-    font-size: 16px; 
+  #contenedorFlex p {
+    font-size: 16px;
   }
 
-  #contenedorFlexConta p{
-    font-size: 16px; 
+  #contenedorFlexConta p {
+    font-size: 16px;
   }
 
-  #contenedorlocal p{
+  #contenedorlocal p {
     font-size: 16px;
 
   }
 
-  #tituloGeneral{
+  #tituloGeneral {
     padding-top: 10%;
     font-size: 20px;
-    
-    
+
+
   }
-  #subtituloGeneral{
+
+  #subtituloGeneral {
     font-size: 25px;
     letter-spacing: normal;
     word-spacing: normal;
-    
+
   }
 
-  #carouselExampleControls{
+  #carouselExampleControls {
     margin-top: 2.2rem;
     margin-bottom: 0;
     height: 13rem;
   }
 
 
-  #productoIndex{
+  #productoIndex {
     width: 100%;
     display: inline-block;
     justify-content: center;
     margin: 0;
   }
 
-  #grillaIndex #subtituloGeneral{
-    padding-top:0.5rem;
+  #grillaIndex #subtituloGeneral {
+    padding-top: 0.5rem;
     text-align: center;
   }
 
 
 
-  #contenedorFlex #estiloflexs #productoIndex #kingFoto{
+  #contenedorFlex #estiloflexs #productoIndex #kingFoto {
     height: 90%;
     width: 90%;
     justify-content: center;
     margin-left: 7%;
     padding: 1%;
     border-radius: 0.6rem;
-    
+
   }
 
   #contenedorFlex #estiloflexs {
@@ -1312,11 +1325,11 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-right: 3%;
     padding-top: 2%;
     text-align: left;
-    
+
   }
 
   #contenedorFlexConta #estiloflexsConta {
-    height: 40%;
+    height: 60%;
     width: 95%;
     margin-left: 1%;
     padding-left: 0%;
@@ -1325,8 +1338,8 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     text-align: justify;
 
   }
-  
-  
+
+
 
   #contenedorFlex #estiloflexa {
     height: 200%;
@@ -1335,7 +1348,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-right: 3%;
     padding-top: 2%;
     text-align: left;
-    
+
   }
 
   #contenedorFlex #estiloflexa #arandano {
@@ -1343,7 +1356,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     width: 90%;
     margin-left: 4.5%;
     border-radius: 0.4rem;
-    
+
   }
 
   #sinBoot #footerLogoIndex {
@@ -1362,19 +1375,19 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   #sinBoot #footerLogo {
     font-size: 14px;
   }
-  
+
 
   #grillaRepo #sinBoot {
-    
+
     height: 230px;
     line-height: 0.9rem;
     margin-bottom: 0;
-    padding-left:0;
-    
+    padding-left: 0;
+
   }
 
-  #grillaRepo #subtituloGeneral{
-    padding-top:0.5rem;
+  #grillaRepo #subtituloGeneral {
+    padding-top: 0.5rem;
     text-align: center;
   }
 
@@ -1383,7 +1396,7 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   #grillaConta #sinBoot #grillaDos {
     height: 140px;
   }
-  
+
 
   #contenedorFlexConta #estiloflexaConta {
     height: 43%;
@@ -1393,16 +1406,16 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-top: 1%;
     padding-bottom: 2%;
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
+    text-align: center;
     word-spacing: normal;
     font-size: 16px;
-    margin-bottom: 0;
+    margin-bottom: 5%;
     line-height: 1rem;
   }
 
 
   #grillaConta #estiloflexsConta #maps {
-    height: 70%;
+    height: 80%;
     width: 90%;
     margin-top: 3%;
     margin-left: 5%;
@@ -1411,25 +1424,25 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-bottom: 35%;
   }
 
-  
+
   #grillaConta #sinBoot footer {
-    
+
     margin-top: 0;
   }
-  
+
 
   #grillaConta #contenedorFlexConta #subtituloGeneral {
-    
+
     font-size: 25px;
     margin-bottom: 5px;
     margin-left: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    
+
   }
 
   #grillaConta #contenedorFlexConta p {
-    
+
     padding-left: 6%;
   }
 
@@ -1447,12 +1460,12 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #contenedorlocal #localFoto {
-   
-   height: 110%;
-   width: 110%;
-   padding-left: 0;
-   border-radius: 0;
-   
+
+    height: 110%;
+    width: 110%;
+    padding-left: 0;
+    border-radius: 0;
+
   }
 
   #grillaRepo #sinBoot #grillaDos {
@@ -1462,9 +1475,9 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     align-items: center;
     justify-items: center;
     height: 150px;
-    padding:1px;
+    padding: 1px;
     margin: 0;
-    
+
   }
 
   #contenedorFlexRepo {
@@ -1476,25 +1489,25 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     margin-bottom: 0;
   }
 
-  #sinBoot #footerLogo #faceBook{
+  #sinBoot #footerLogo #faceBook {
     height: 30px;
     width: 30px;
     padding-bottom: 1%;
   }
 
-  #sinBoot #footerLogoRepo #faceBook{
+  #sinBoot #footerLogoRepo #faceBook {
     height: 30px;
     width: 30px;
     padding-bottom: 1%;
   }
 
-  #contenedorFlexRepo #subtituloGeneral{
-    margin-top:1rem;
+  #contenedorFlexRepo #subtituloGeneral {
+    margin-top: 1rem;
     padding-top: 0;
     font-size: 23px;
   }
 
-  #contenedorFlexRepo .estiloTres{
+  #contenedorFlexRepo .estiloTres {
     font-size: 16px;
     padding: 0;
   }
@@ -1503,28 +1516,28 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     display: inline-block;
     overflow: hidden;
     height: 620px;
-    padding:0.5rem;
-    
-    
+    padding: 0.5rem;
+
+
   }
 
   #contenedorFlexRepo #estiloflexr2 {
     display: inline-block;
     overflow: hidden;
     height: 580px;
-    padding:0.5rem;
+    padding: 0.5rem;
     margin-bottom: 0;
-     
+
   }
 
   #contenedorFlexRepo #estiloflexr3 {
     display: inline-block;
     overflow: hidden;
     height: 525px;
-    padding:0.5rem;
+    padding: 0.5rem;
     margin-bottom: 0;
     margin-top: 0;
-    
+
   }
 
   #contenedorFlexRepo #estiloflexr4 {
@@ -1537,32 +1550,32 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   #contenedorFlexRepo #estiloflexr1 #videoChoco {
     height: 55%;
     width: 99%;
-    padding-left:0.2rem;
+    padding-left: 0.2rem;
   }
 
   #contenedorFlexRepo #estiloflexr2 #videoPascua {
     height: 48%;
     width: 99%;
-    padding-left:0.2rem;
-    
+    padding-left: 0.2rem;
+
   }
 
   #contenedorFlexRepo #estiloflexr3 #videoCrema {
     height: 59%;
     width: 99%;
-    padding-left:0.2rem;
-    
+    padding-left: 0.2rem;
+
   }
 
   #contenedorFlexRepo #estiloflexr4 #grana {
     height: 55%;
     width: 59%;
     padding-left: 4rem;
-    
+
   }
 
-  #contenedorFlexRepo p{
-    font-size: 18px; 
+  #contenedorFlexRepo p {
+    font-size: 18px;
     padding-left: 2%;
     padding-right: 2%;
 
@@ -1573,39 +1586,46 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     padding-top: 1%;
   }
 
-  #grillaRece #subtituloGeneral{
+  #grillaRece #subtituloGeneral {
     padding-left: 0;
+    margin-top: 1%;
     text-align: center;
   }
 
-  #grillaRece #textoReceta{
+  #grillaHerbo #subtituloGeneral {
+    margin-top: 3%;
+    text-align: center;
+  }
+
+
+  #grillaRece #textoReceta {
     padding-left: 7px;
     margin-right: 0px;
-    
+
   }
 
 
   #grillaHerbo #estiloTres {
     margin-top: 3rem;
-    margin-left:1%;
-    margin-right:1%;
+    margin-left: 1%;
+    margin-right: 1%;
     padding: 1rem;
-    height: 3750px;
+    height: 100%;
     width: 87%;
     display: inline-block;
     font-size: 16px;
   }
 
   #imagenesHerbo {
-    height: 200px;
+    height: 7%;
     width: 100%;
     display: inline-block;
     font-size: 16px;
   }
 
   #manzanilla {
-    height: 190px;
-    width: 260px;
+    height: 90%;
+    width: 100%;
     margin-left: 0;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
@@ -1613,13 +1633,13 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #lavanda {
-    height: 190px;
-    width: 260px;
+    height: 90%;
+    width: 100%;
     margin-left: 0;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 3%;
-    
+
   }
 
   #grillaHerbo #sinBoot #grillaDos {
@@ -1627,10 +1647,10 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
   }
 
   #grillaRece #recetasArt {
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 0;
     padding: 0.3rem;
-    height: 850px;
+    height: 900px;
     width: 100%;
     display: inline-block;
     font-size: 16px;
@@ -1643,96 +1663,96 @@ background: linear-gradient(128deg, rgba(237,23,23,1) 0%, rgba(236,38,25,0.90519
     margin: 0.1rem;
     padding: 1px;
     padding-top: 0.5rem;
-    
+
+
   }
 
   #recetasBlock {
     width: 100%;
   }
 
-  #recetas {
+  #grillaRece #recetas {
     font-size: 16px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 1.7rem;
+    margin-left: 23%;
   }
-    
+
   #grillaRece #alfajor {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
-    margin-right: 0;
-    padding-left: 2%;
+    height: 10%;
+    width: 65%;
+    margin-left: 17%;
+    margin-right: 0%;
+    padding-left: 0%;
     border-radius: 8px;
   }
 
   #grillaRece #hibisco {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
+
+    height: 55%;
+    width: 75%;
+    margin-left: 11%;
     margin-right: 0;
     padding-left: 1%;
     border-radius: 8px;
   }
 
   #grillaRece #muffins {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
+    height: 35%;
+    width: 75%;
+    margin-left: 12%;
     margin-right: 0;
     padding-left: 1%;
     border-radius: 8px;
   }
-  
+
   #grillaRece #bombones {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
+    height: 65%;
+    width: 85%;
+    margin-left: 7%;
     margin-right: 0;
     padding-left: 1%;
     border-radius: 8px;
   }
 
   #grillaRece #humus {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
+    height: 65%;
+    width: 85%;
+    margin-left: 8%;
     margin-right: 0;
     margin-bottom: 0.5rem;
   }
 
   #grillaRece #cuadraditos {
-    height: 230px;
-    width: 240px;
-    margin-left: 1.2rem;
+    height: 60%;
+    width: 75%;
+    margin-left: 10%;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
   }
 
   #grillaRece #textoReceta {
     font-size: 16px;
-    width: 200px;
-    
+    width: 85%;
+    margin-left: 8%
   }
 
-  
-  .itemImg{
-  
+
+  .itemImg {
+
     width: 200px;
     height: 150px;
     border-radius: 3px;
   }
 
-  
 
- 
 
-  
+
+
+
 
 
 
 
 }
-
-
