@@ -1188,7 +1188,7 @@ header {
 
 
   #grillaHerbo {
-    grid-template-rows: 150px 100px 3300px 190px;
+    grid-template-rows: 4% 3% 86% 4.5%;
   }
 
   #grillaRece {
@@ -1288,7 +1288,7 @@ header {
   #carouselExampleControls {
     margin-top: 2.2rem;
     margin-bottom: 0;
-    height: 13rem;
+    height: 14rem;
   }
 
 
@@ -1680,19 +1680,18 @@ header {
   }
 
   #grillaRece #alfajor {
-    height: 10%;
-    width: 65%;
-    margin-left: 17%;
+    height: 7%;
+    width: 60%;
+    margin-left: 20%;
     margin-right: 0%;
     padding-left: 0%;
     border-radius: 8px;
   }
 
   #grillaRece #hibisco {
-
-    height: 55%;
-    width: 75%;
-    margin-left: 11%;
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
     margin-right: 0;
     padding-left: 1%;
     border-radius: 8px;
@@ -1708,18 +1707,18 @@ header {
   }
 
   #grillaRece #bombones {
-    height: 65%;
-    width: 85%;
-    margin-left: 7%;
+    height: 60%;
+    width: 80%;
+    margin-left: 9%;
     margin-right: 0;
     padding-left: 1%;
     border-radius: 8px;
   }
 
   #grillaRece #humus {
-    height: 65%;
-    width: 85%;
-    margin-left: 8%;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
     margin-right: 0;
     margin-bottom: 0.5rem;
   }
